@@ -1,0 +1,743 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     31868,        735]
+NotebookOptionsPosition[     28427,        675]
+NotebookOutlinePosition[     28948,        694]
+CellTagsIndexPosition[     28905,        691]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Vaje za 3. teden", "Title",
+ CellChangeTimes->{{3.8231617505307693`*^9, 3.823161757051238*^9}, 
+   3.8231618237866726`*^9, {3.8236744082925386`*^9, 3.823674408573862*^9}, {
+   3.82376619779584*^9, 3.823766199454172*^9}, {3.855125646307992*^9, 
+   3.855125646694099*^9}},ExpressionUUID->"5c608c4c-fbd4-4970-b68d-\
+6b33f9db441c"],
+
+Cell["2. 3. in 3. 3. 2022", "Text",
+ CellChangeTimes->{{3.823161833045583*^9, 3.823161882443583*^9}, {
+  3.8236744184403744`*^9, 3.823674424761194*^9}, {3.854537658605875*^9, 
+  3.854537675061092*^9}, {3.85512565002999*^9, 
+  3.855125656446394*^9}},ExpressionUUID->"5192b6bb-7251-4ec2-9b5b-\
+ddecd5d5893b"],
+
+Cell["\<\
+Naslednje naloge re\[SHacek]i s pomo\[CHacek]jo vnosa z naravnim jezikom \
+(brez znanja sintakse Mathematice in brez pomo\[ZHacek]nih ra\[CHacek]unov). \
+V vseh primerih se prepri\[CHacek]aj, da je Mathematica razumela tvoj ukaz. \
+Glej spodnji primer.\
+\>", "Text",
+ CellChangeTimes->{{3.824278606060779*^9, 3.8242786895918083`*^9}, {
+  3.824278888560747*^9, 3.8242788915809774`*^9}, {3.8242789975121865`*^9, 
+  3.82427901034433*^9}},ExpressionUUID->"bd7f36e2-6b14-4e30-b8d6-\
+e5450ddb3ecf"],
+
+Cell[CellGroupData[{
+
+Cell["Primer", "Subsection",
+ CellChangeTimes->{{3.8242786937992587`*^9, 3.8242787132071357`*^9}, {
+  3.8242789028656454`*^9, 
+  3.8242789030502114`*^9}},ExpressionUUID->"0b99bd35-4f2a-49eb-8971-\
+833816194ada"],
+
+Cell[TextData[{
+ "Izra\[CHacek]unaj 20. \[SHacek]tevko v decimalnem zapisu \[SHacek]tevila \
+1+1/2+1/3+...+1/100. Celico za\[CHacek]nite z znakom ",
+ StyleBox["=", "Input"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.824278790003468*^9, 3.8242788561122627`*^9}, {
+  3.855126059043696*^9, 3.855126059923355*^9}, {3.855126102012136*^9, 
+  3.855126104937644*^9}, {3.8551261477331467`*^9, 
+  3.855126157285572*^9}},ExpressionUUID->"6597dbb4-acaf-482a-a5ae-\
+2952be4ce6a5"],
+
+Cell[BoxData[
+ NamespaceBox["WolframAlphaQueryResults",
+  DynamicModuleBox[{Typeset`q$$ = 
+   "please compute the 20th digit of 1+1/2+1/3+...+1/100", Typeset`opts$$ = {
+   AppearanceElements -> {"Extrusion", "Warnings", "Assumptions", "Pods"}, 
+    Asynchronous -> All, 
+    Method -> {
+     "ExtrusionChosen" -> {"Result", "Result", 1, 1, "Output", "8"}, 
+      "Formats" -> {"cell", "minput", "moutput", "msound", "dataformats"}, 
+      "ExtrusionOpen" -> True}}, Typeset`elements$$ = {
+   "Extrusion", "Warnings", "Assumptions", "Pods"}, Typeset`pod1$$ = 
+   XMLElement[
+   "pod", {"error" -> "false", "id" -> "Input", "numsubpods" -> "1", 
+     "position" -> "100", "scanner" -> "Identity", "title" -> 
+     "Input interpretation"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TagBox[
+             TagBox[
+              GridBox[{{
+                 PaneBox[
+                  StyleBox[
+                   TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    TemplateBox[{
+                    TagBox[
+                    SuperscriptBox["20", "\"th\""], 
+                    Global`TagBoxWrapper[
+                    "StringBoxes" -> RowBox[{"20", "\"th\""}]]], 
+                    "\" digit\""}, "RowDefault"], {
+                    LineIndent -> 0, LineSpacing -> {0.9, 0, 1.5}}], 
+                    TagBox[
+                    TagBox[
+                    RowBox[{"1", "+", 
+                    FractionBox["1", "2"], "+", 
+                    FractionBox["1", "3"], "+", "\"\[CenterEllipsis]\"", "+", 
+                    FractionBox["1", "100"]}], HoldForm], HoldForm]}}, 
+                    GridBoxBackground -> {"Columns" -> {
+                    GrayLevel[0.949], None}, "Rows" -> {{None}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    ColumnsEqual -> False, RowsEqual -> False, 
+                    GridBoxDividers -> {"Columns" -> {
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84], 
+                    GrayLevel[0.84]}, "Rows" -> {{
+                    GrayLevel[0.84]}}, 
+                    "RowsIndexed" -> {
+                    1 -> GrayLevel[0.84], -1 -> GrayLevel[0.84]}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {2, 2, 2}, "Rows" -> {{1}}}, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+                    AllowScriptLevelChange -> False, BaselinePosition -> 1], 
+                    Global`TagBoxWrapper["Separator" -> " | "]], 
+                   LineSpacing -> {1, 0, 1.5}, LineIndent -> 0], 
+                  BaselinePosition -> Center]}}, 
+               GridBoxItemSize -> {
+                "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+               ColumnsEqual -> False, RowsEqual -> False, 
+               GridBoxSpacings -> {"Columns" -> {{
+                    AbsoluteThickness[-1]}}, "Rows" -> {{0}}}, 
+               AllowScriptLevelChange -> False], 
+              Global`TagBoxWrapper["Separator" -> " | "]], 
+             PolynomialForm[#, TraditionalOrder -> False]& ], 
+            TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement["dataformats", {}, {"plaintext"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Grid"}, {}], "\n  "}]}], 
+   Typeset`pod2$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "Result", "numsubpods" -> "1", 
+     "position" -> "200", "primary" -> "true", "scanner" -> "Sum", "title" -> 
+     "Result"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["moutput", {}, {"8"}], 
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox["8", TraditionalForm]], "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {
+        "plaintext,moutput,computabledata,formatteddata,numberdata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}], 
+     XMLElement["states", {"count" -> "1"}, {
+       XMLElement[
+       "state", {
+        "name" -> "Show details", "input" -> "Result__Show details"}, {}]}]}],
+    Typeset`pod3$$ = XMLElement[
+   "pod", {"error" -> "false", "id" -> "NearByDigits", "numsubpods" -> "1", 
+     "position" -> "300", "scanner" -> "NthDigit", "title" -> 
+     "Nearby digits"}, {
+     XMLElement["subpod", {"title" -> ""}, {
+       XMLElement["cell", {"compressed" -> False, "string" -> True}, {
+         Cell[
+          BoxData[
+           FormBox[
+            TemplateBox[{
+              StyleBox["5", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["\".\"", 
+               GrayLevel[0.5], StripOnInput -> False], 
+              StyleBox["1", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["8", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["7", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["3", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["7", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["7", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["5", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["1", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["7", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["6", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["3", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["9", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["6", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["2", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["0", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["2", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["6", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["0", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], "8", 
+              StyleBox["0", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["5", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["1", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["1", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["7", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["6", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["7", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["5", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["6", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["5", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["8", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["2", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["5", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["3", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["1", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["5", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["7", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["9", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["0", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["8", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["9", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["7", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["2", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["1", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["2", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["6", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["7", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["0", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["8", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["4", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False], 
+              StyleBox["\"\[Ellipsis]\"", 
+               RGBColor[
+               0.6666666666666666, 0.6666666666666666, 0.6666666666666666], 
+               StripOnInput -> False]}, "RowDefault"], TraditionalForm]], 
+          "Output", {
+          Background -> None, 
+           GraphicsBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics"}, 
+             DefaultAxesStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsAxes"], DefaultFrameStyle -> Directive[
+               GrayLevel[0, 0.35], FontColor -> GrayLevel[0.25], FontOpacity -> 
+               1, "GraphicsFrame"], DefaultFrameTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsFrameTicks"], 
+             DefaultTicksStyle -> 
+             Directive[
+              FontFamily -> "Times", FontSize -> 10, "GraphicsTicks"]}, 
+           Graphics3DBoxOptions -> {
+            DefaultBaseStyle -> {FontFamily -> "Times", "Graphics3D"}}}, 
+          NumberPoint -> ".", CellSize -> {550, Automatic}, 
+          AutoStyleOptions -> {"HighlightFormattingErrors" -> False}, 
+          RenderingOptions -> {
+           "3DRenderingMethod" -> "BSPTreeOrDepthBuffer"}]}], 
+       XMLElement[
+       "dataformats", {}, {"plaintext,computabledata,formatteddata"}]}], 
+     XMLElement["expressiontypes", {"count" -> "1"}, {"\n   ", 
+       XMLElement["expressiontype", {"name" -> "Default"}, {}], "\n  "}]}], 
+   Typeset`aux1$$ = {True, False, {False}, True}, Typeset`aux2$$ = {
+   True, False, {False}, True}, Typeset`aux3$$ = {True, False, {False}, True},
+    Typeset`asyncpods$$ = {}, Typeset`nonpods$$ = {}, Typeset`initdone$$ = 
+   True, Typeset`queryinfo$$ = {
+   "success" -> "true", "error" -> "false", "numpods" -> "3", "datatypes" -> 
+    "NthDigit", "timedout" -> "", "timedoutpods" -> "", "timing" -> "1.42", 
+    "parsetiming" -> "0.935", "parsetimedout" -> "false", "recalculate" -> "",
+     "id" -> "MSP26391cdgi3i9iic87i2e00002e3ge1165592fe15", "host" -> 
+    "https://www4d.wolframalpha.com", "server" -> "5", "related" -> 
+    "https://www4d.wolframalpha.com/api/v1/relatedQueries.jsp?id=\
+MSPa26401cdgi3i9iic87i2e0000491c41b5f5259b6c6728076557243023091", "version" -> 
+    "2.6"}, Typeset`sessioninfo$$ = {
+   "TimeZone" -> 1., 
+    "Date" -> {2021, 3, 9, 12, 39, 35.0636592`9.297432130252918}, "Line" -> 1,
+     "SessionID" -> 29838564271048567026}, Typeset`showpods$$ = {1, 2, 3}, 
+   Typeset`failedpods$$ = {}, Typeset`chosen$$ = {
+   "Result", "Result", 1, 1, "Output", "8"}, Typeset`open$$ = True, 
+   Typeset`newq$$ = "please compute the 20th digit of 1+1/2+1/3+...+1/100"}, 
+   DynamicBox[ToBoxes[
+     AlphaIntegration`FormatAlphaResults[
+      Dynamic[{
+       1, {Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$}, {
+        Typeset`aux1$$, Typeset`aux2$$, Typeset`aux3$$}, Typeset`chosen$$, 
+        Typeset`open$$, Typeset`elements$$, Typeset`q$$, Typeset`opts$$, 
+        Typeset`nonpods$$, Typeset`queryinfo$$, Typeset`sessioninfo$$, 
+        Typeset`showpods$$, Typeset`failedpods$$, Typeset`newq$$}]], 
+     StandardForm],
+    ImageSizeCache->{616., {362., 18.}},
+    TrackedSymbols:>{Typeset`showpods$$, Typeset`failedpods$$}],
+   DynamicModuleValues:>{},
+   Initialization:>If[
+     Not[Typeset`initdone$$], Null; WolframAlphaClient`Private`doAsyncUpdates[
+       Hold[{Typeset`pod1$$, Typeset`pod2$$, Typeset`pod3$$}], 
+       Typeset`asyncpods$$, 
+       Dynamic[Typeset`failedpods$$]]; Typeset`asyncpods$$ = {}; 
+     Typeset`initdone$$ = True],
+   SynchronousInitialization->False],
+  BaseStyle->{Deployed -> True},
+  DeleteWithContents->True,
+  Editable->False,
+  SelectWithContents->True]], "WolframAlphaShortInput",ExpressionUUID->\
+"3f889d83-4de8-4421-9b2b-5d0e78acc3f9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Naloga 1", "Section",
+ CellChangeTimes->{{3.8231618891351395`*^9, 3.82316190190687*^9}, {
+  3.855126326629221*^9, 
+  3.85512633282859*^9}},ExpressionUUID->"2ba2c46c-61d3-43a9-803e-\
+4fa3d0c38e26"],
+
+Cell["Dolo\[CHacek]i 443. \[SHacek]tevko v decimalnem zapisu \[SHacek]tevila \
+pi.", "Text",
+ CellChangeTimes->{{3.82367445232017*^9, 3.823674533161069*^9}, {
+  3.8242789123164234`*^9, 
+  3.8242789266668806`*^9}},ExpressionUUID->"f45d1f7b-b3f0-4518-b297-\
+86515d4da031"],
+
+Cell["\<\
+Izra\[CHacek]unaj plo\[SHacek]\[CHacek]ino obmo\[CHacek]ja med krivuljama \
+f(x)=3x^2+2x+1 in g(x)=4-4x^4.\
+\>", "Text",
+ CellChangeTimes->{{3.824278934923018*^9, 3.8242789483250437`*^9}, {
+  3.8242790294320073`*^9, 3.824279067181547*^9}, {3.8242791289992332`*^9, 
+  3.824279136992445*^9}},ExpressionUUID->"9930abba-78cf-458d-bd17-\
+19166f4087a6"],
+
+Cell["Izra\[CHacek]unaj f(3), kjer je f(x)=1+1/x.", "Text",
+ CellChangeTimes->{{3.824279221136812*^9, 3.824279248408711*^9}, {
+  3.82427946829105*^9, 3.824279470231556*^9}, {3.8242795117979584`*^9, 
+  3.8242795119608803`*^9}},ExpressionUUID->"956fddda-adc3-4d90-ad08-\
+0bd467b00fa6"],
+
+Cell["\<\
+Izra\[CHacek]unaj obseg elipse s polosema 4 in 3. Ugotovi pribli\[ZHacek]no \
+vrednost.\
+\>", "Text",
+ CellChangeTimes->{{3.824279529171213*^9, 3.824279558645338*^9}, {
+  3.824279718775467*^9, 
+  3.8242797302444415`*^9}},ExpressionUUID->"983235d9-2199-4320-aa41-\
+4140786695b3"],
+
+Cell["\<\
+Matej ima 512 jabolk, Jana pa 1024 jabolk. Koliko jabolk imata Matej in Jana \
+skupaj?\
+\>", "Text",
+ CellChangeTimes->{{3.8242797559107485`*^9, 3.8242798054509077`*^9}, {
+  3.824279994366373*^9, 
+  3.824280011871313*^9}},ExpressionUUID->"526497e1-2595-4dbd-a188-\
+6ea12cdef481"],
+
+Cell["\<\
+Ali je 1009 pra\[SHacek]tevilo? Izra\[CHacek]unaj vsoto \
+1/2+1/3+1/5+1/7+1/11+...+1/1009. Kaj predstavlja ta vsota?\
+\>", "Text",
+ CellChangeTimes->{{3.824280056484812*^9, 3.8242801036171646`*^9}, {
+  3.8242801715842295`*^9, 3.8242801903790665`*^9}, {3.824280231570858*^9, 
+  3.824280231771147*^9}},ExpressionUUID->"4263f19c-abbb-4aff-bc8a-\
+2438bca4c932"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Naloga 2", "Section",
+ CellChangeTimes->{{3.8242800245874147`*^9, 3.8242800277175612`*^9}, {
+  3.82428030154875*^9, 
+  3.824280302737523*^9}},ExpressionUUID->"e0e99eb6-5dc4-427e-9e91-\
+f366f683ed3c"],
+
+Cell["Dolo\[CHacek]i povr\[SHacek]ino Slovenije in skupno dol\[ZHacek]no \
+njene meje.", "Text",
+ CellChangeTimes->{{3.8242805969743814`*^9, 
+  3.824280652236888*^9}},ExpressionUUID->"72cbf5bf-0293-4a39-b45b-\
+d89408d5eb1d"],
+
+Cell["Koliko Slovenij prekrije povr\[SHacek]ino Antarktike?", "Text",
+ CellChangeTimes->{{3.8242806672924557`*^9, 3.8242806783029656`*^9}, {
+  3.8242808338637877`*^9, 3.824280836015839*^9}, {3.85512627813202*^9, 
+  3.855126280546772*^9}},ExpressionUUID->"b73b474a-3ce6-4aa4-b883-\
+67ae18353942"],
+
+Cell["Kolik\[SHacek]na je temperatura sonca?", "Text",
+ CellChangeTimes->{{3.8242811582633038`*^9, 3.8242811937323923`*^9}, {
+  3.824281309914006*^9, 
+  3.8242813124048896`*^9}},ExpressionUUID->"487958ce-c9c5-4468-8635-\
+db4394b748f9"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Naloga 3", "Section",
+ CellChangeTimes->{{3.8236748742147074`*^9, 3.823674881539955*^9}, {
+  3.824281335008315*^9, 
+  3.8242813351618867`*^9}},ExpressionUUID->"522eec24-e21c-4acc-a5ef-\
+fe5403dcf51a"],
+
+Cell["\<\
+V tej nalogi si bomo pripravili nabor podatkov in s pomo\[CHacek]jo tega \
+nabora naredili primer preproste statisti\[CHacek]ne analize.\
+\>", "Text",
+ CellChangeTimes->{{3.8242813413445754`*^9, 
+  3.8242813832826505`*^9}},ExpressionUUID->"50ffaa19-721a-4675-8edb-\
+3f1bb972a80d"],
+
+Cell[CellGroupData[{
+
+Cell["Priprava podatkov", "Subsection",
+ CellChangeTimes->{{3.8242830914220295`*^9, 
+  3.824283123841911*^9}},ExpressionUUID->"26a06061-9741-4ecf-b5a6-\
+13e5759fe696"],
+
+Cell["\<\
+Definiraj seznam vseh dr\[ZHacek]av EU. Pomaga\[SHacek] si lahko z naravnim \
+jezikom.\
+\>", "Text",
+ CellChangeTimes->{{3.824281856652864*^9, 3.824281882911785*^9}, {
+  3.824281941032139*^9, 
+  3.824281947804047*^9}},ExpressionUUID->"52cd3b1c-58e4-4f40-8075-\
+701bfe034922"],
+
+Cell["\<\
+Kolik\[SHacek]na je dol\[ZHacek]ina seznama (tj. \[SHacek]tevilo \
+dr\[ZHacek]av Evropske unije)?\
+\>", "Text",
+ CellChangeTimes->{{3.8242819978763757`*^9, 
+  3.824282036670769*^9}},ExpressionUUID->"1290e2b5-96b2-4cab-acad-\
+87409ae820b2"],
+
+Cell[TextData[{
+ "Poi\[SHacek]\[CHacek]i \[SHacek]tevilo vseh lastnosti, ki jih imajo dr\
+\[ZHacek]ave s tega seznama. Nasvet: ukaz ",
+ ButtonBox["EntityProperties",
+  BaseStyle->"Link",
+  ButtonData->"paclet:ref/EntityProperties"],
+ ". V pomo\[CHacek] vam bo tudi dokumentacija ",
+ ButtonBox["EntityProperty",
+  BaseStyle->"Link",
+  ButtonData->"paclet:ref/EntityProperty"],
+ "."
+}], "Text",
+ CellChangeTimes->{{3.82428205207804*^9, 3.824282140880015*^9}, {
+  3.8552000891039677`*^9, 
+  3.855200130099024*^9}},ExpressionUUID->"6cd44166-c96b-4bd6-8a65-\
+26aef9c5588e"],
+
+Cell["\<\
+Katera entiteta podaja povr\[SHacek]ino dr\[ZHacek]ave? Dolo\[CHacek]i povr\
+\[SHacek]ino Slovenije.\
+\>", "Text",
+ CellChangeTimes->{{3.824282171373453*^9, 3.8242822430401754`*^9}, {
+  3.8242823503769093`*^9, 3.8242823623521137`*^9}, {3.8242825520470743`*^9, 
+  3.8242825580614233`*^9}},ExpressionUUID->"32bd6f13-fdab-472c-8b8a-\
+b5a0d3734f1f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Priprava seznamov", "Subsection",
+ CellChangeTimes->{{3.8242831376355333`*^9, 
+  3.824283155659627*^9}},ExpressionUUID->"2ebdb9ca-467a-4df5-82a1-\
+97a6c8e4264d"],
+
+Cell["Definiraj seznam povr\[SHacek]in vseh dr\[ZHacek]av Evropske unije.", \
+"Text",
+ CellChangeTimes->{{3.8242831618588204`*^9, 
+  3.8242831773672743`*^9}},ExpressionUUID->"6de16e4b-bba7-4fa2-8d03-\
+c9ceb2d797bc"],
+
+Cell["\<\
+Definiraj seznam, ki bo vseboval obseg vsake dr\[ZHacek]ave (tj. \
+dol\[ZHacek]ino njene dr\[ZHacek]avne meje).\
+\>", "Text",
+ CellChangeTimes->{{3.8242832759511766`*^9, 
+  3.824283369824444*^9}},ExpressionUUID->"f9df6d2d-a853-4d1d-8d29-\
+afd0c49f9224"],
+
+Cell["\<\
+Definiraj seznam, ki bo vseboval razmerje povr\[SHacek]ina/dol\[ZHacek]ina \
+meje za vsako dr\[ZHacek]avo.\
+\>", "Text",
+ CellChangeTimes->{{3.824284113421982*^9, 
+  3.824284141405942*^9}},ExpressionUUID->"c263b8a7-c8c6-41b2-a8ed-\
+56d3cc25afd6"],
+
+Cell["Definiraj \[SHacek]e seznam, ki vsebuje BDP za vsako dr\[ZHacek]avo.", \
+"Text",
+ CellChangeTimes->{{3.824284184952864*^9, 
+  3.8242842185739183`*^9}},ExpressionUUID->"0259aba5-14f9-4345-a419-\
+3167ddd68e15"],
+
+Cell["\<\
+V istem koordinatnem sistemu predstavi BDP in razmerje povr\[SHacek]ina/dol\
+\[ZHacek]ina meje za vsako dr\[ZHacek]avo.\
+\>", "Text",
+ CellChangeTimes->{{3.8242844826511707`*^9, 
+  3.8242845350826993`*^9}},ExpressionUUID->"88cbd3b9-e0f2-46f1-ac7e-\
+0da06423e561"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{759, 733},
+WindowMargins->{{Automatic, 334}, {Automatic, 0}},
+TaggingRules->{
+ "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
+Magnification:>1.1 Inherited,
+FrontEndVersion->"12.2 for Mac OS X x86 (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"5e852de7-2164-40a7-a2eb-083c78b43343"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 333, 5, 107, "Title",ExpressionUUID->"5c608c4c-fbd4-4970-b68d-6b33f9db441c"],
+Cell[916, 29, 306, 5, 39, "Text",ExpressionUUID->"5192b6bb-7251-4ec2-9b5b-ddecd5d5893b"],
+Cell[1225, 36, 502, 9, 90, "Text",ExpressionUUID->"bd7f36e2-6b14-4e30-b8d6-e5450ddb3ecf"],
+Cell[CellGroupData[{
+Cell[1752, 49, 211, 4, 60, "Subsection",ExpressionUUID->"0b99bd35-4f2a-49eb-8971-833816194ada"],
+Cell[1966, 55, 464, 10, 65, "Text",ExpressionUUID->"6597dbb4-acaf-482a-a5ae-2952be4ce6a5"],
+Cell[2433, 67, 19201, 407, 399, "WolframAlphaShortInput",ExpressionUUID->"3f889d83-4de8-4421-9b2b-5d0e78acc3f9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[21671, 479, 202, 4, 74, "Section",ExpressionUUID->"2ba2c46c-61d3-43a9-803e-4fa3d0c38e26"],
+Cell[21876, 485, 270, 5, 39, "Text",ExpressionUUID->"f45d1f7b-b3f0-4518-b297-86515d4da031"],
+Cell[22149, 492, 357, 7, 39, "Text",ExpressionUUID->"9930abba-78cf-458d-bd17-19166f4087a6"],
+Cell[22509, 501, 283, 4, 39, "Text",ExpressionUUID->"956fddda-adc3-4d90-ad08-0bd467b00fa6"],
+Cell[22795, 507, 288, 7, 39, "Text",ExpressionUUID->"983235d9-2199-4320-aa41-4140786695b3"],
+Cell[23086, 516, 289, 7, 39, "Text",ExpressionUUID->"526497e1-2595-4dbd-a188-6ea12cdef481"],
+Cell[23378, 525, 367, 7, 65, "Text",ExpressionUUID->"4263f19c-abbb-4aff-bc8a-2438bca4c932"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[23782, 537, 205, 4, 74, "Section",ExpressionUUID->"e0e99eb6-5dc4-427e-9e91-f366f683ed3c"],
+Cell[23990, 543, 224, 4, 39, "Text",ExpressionUUID->"72cbf5bf-0293-4a39-b45b-d89408d5eb1d"],
+Cell[24217, 549, 295, 4, 39, "Text",ExpressionUUID->"b73b474a-3ce6-4aa4-b883-67ae18353942"],
+Cell[24515, 555, 235, 4, 39, "Text",ExpressionUUID->"487958ce-c9c5-4468-8635-db4394b748f9"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[24787, 564, 206, 4, 74, "Section",ExpressionUUID->"522eec24-e21c-4acc-a5ef-fe5403dcf51a"],
+Cell[24996, 570, 290, 6, 65, "Text",ExpressionUUID->"50ffaa19-721a-4675-8edb-3f1bb972a80d"],
+Cell[CellGroupData[{
+Cell[25311, 580, 167, 3, 60, "Subsection",ExpressionUUID->"26a06061-9741-4ecf-b5a6-13e5759fe696"],
+Cell[25481, 585, 285, 7, 39, "Text",ExpressionUUID->"52cd3b1c-58e4-4f40-8075-701bfe034922"],
+Cell[25769, 594, 249, 6, 39, "Text",ExpressionUUID->"1290e2b5-96b2-4cab-acad-87409ae820b2"],
+Cell[26021, 602, 568, 15, 65, "Text",ExpressionUUID->"6cd44166-c96b-4bd6-8a65-26aef9c5588e"],
+Cell[26592, 619, 355, 7, 39, "Text",ExpressionUUID->"32bd6f13-fdab-472c-8b8a-b5a0d3734f1f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26984, 631, 167, 3, 60, "Subsection",ExpressionUUID->"2ebdb9ca-467a-4df5-82a1-97a6c8e4264d"],
+Cell[27154, 636, 215, 4, 39, "Text",ExpressionUUID->"6de16e4b-bba7-4fa2-8d03-c9ceb2d797bc"],
+Cell[27372, 642, 263, 6, 39, "Text",ExpressionUUID->"f9df6d2d-a853-4d1d-8d29-afd0c49f9224"],
+Cell[27638, 650, 256, 6, 39, "Text",ExpressionUUID->"c263b8a7-c8c6-41b2-a8ed-56d3cc25afd6"],
+Cell[27897, 658, 214, 4, 39, "Text",ExpressionUUID->"0259aba5-14f9-4345-a419-3167ddd68e15"],
+Cell[28114, 664, 273, 6, 65, "Text",ExpressionUUID->"88cbd3b9-e0f2-46f1-ac7e-0da06423e561"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
